@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://haryana-gas-forntend.vercel.app'  // ← NO TRAILING SLASH! AAA
+    'https://haryana-gas-forntend-3rd.vercel.app'  // ← NO TRAILING SLASH! AAA
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
